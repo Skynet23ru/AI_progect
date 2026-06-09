@@ -10,7 +10,7 @@ A multi-tenant SaaS platform designed for small-scale transport rental companies
 *   **Backend**: Python 3.12+, FastAPI (Asynchronous API).
 *   **Frontend**: React 18+, Vite, Tailwind CSS, shadcn/ui (Modern, high-performance UI).
 *   **Database**: PostgreSQL (Relational, ACID compliant, robust JSONB support).
-*   **ORM**: SQLAlchemy 2.0 (Async mode) + Alembic (Migration management).
+*   **ORM**: SQLAlchemy 2.0 (Async mode) + Alembin (Migration management).
 *   **State Management**: Python `transitions` library (for business logic enforcement).
 *   **Infrastructure**: Docker & Docker Compose (Containerized environment).
 
@@ -42,41 +42,25 @@ Every table related to business data (`Vehicle`, `Rental`, `Customer`, `Status`)
 *   **Infrastructure**: Dockerize PostgreSQL, FastAPI, and React. Setup Alembic migrations.
 *   **Auth Module**: 
     *   JWT-based authentication.
-    *   Password hashing (Argon2/Bcrypt).
-    *   RBAC (Role-Based Access Control): Owner vs Staff.
-*   **Tenant Logic**: Middleware for `company_id` injection.
+    ...
 *   **DoD**: A user can register a company, create a staff member, and authenticate via API.
 
 ### Phase 2: Fleet & State Machine (The "Engine")
-**Goal**: Implement the lifecycle of a vehicle.
-*   **CRUD Operations**: Full management of `Vehicle` and `Status` entities.
-*   **State Engine**: Implementation of `transitions` library.
-    *   *Rule Example*: `Status: Repair` $\rightarrow$ *Action: Rent* = **FORBIDDEN**.
-    *   *Rule Example*: `Status: Available` $\rightarrow$ *Action: Rent* = **ALLOWED**.
-*   **DoD**: Ability to create a vehicle and change its status via API while respecting business rules.
+...
 
-###Phase 3: Rental & Financials (The "Transaction")
-**Goal**: Handle the business value of the platform.
-*   **Customer Registry**: Management of client profiles.
-*   **Rental Module**: Logic for calculating rental duration, verifying availability, and recording prepayment.
-*   **Payment Interface (Adapter Pattern)**: Create an abstract `PaymentProvider` interface to allow future integration with Stripe/Square/etc.
-*   **DoD**: A completed rental record exists in the DB linking a customer, vehicle, and payment amount.
+### Phase 3: Rental & Financials (The "Transaction")
+...
 
-### Phase Phase 4: UI/UX implementation (The "Window")
-**Goal**: Translate API logic into a professional dashboard.
-*   **Dashboard Layout**: Sidebar navigation, multi-tab view (Fleet, Active Rentals, Clients).
-*   **Live Components**: Real-time status indicators using Tailwind color coding.
-*   **Forms & Wizards**: Multi-step forms for complex rental creation.
-*   **DoD**: A fully functional web interface that mirrors all backend capabilities.
+### Phase 4: UI/UX implementation (The "Window")
+...
 
 ---
 
 ## 5. Quality Assurance (QA) Plan
-*   **Unit Testing**: Pytest for business logic (especially the State Machine and Auth middleware).
-*   **Integration Testing**: Testing the interaction between FastAPI and PostgreSQL using Testcontainers.
-*   **E2E Testing**: Playwright/Cypress to verify critical user flows (Login $\rightarrow$ Create Vehicle $\rightarrow$ Start Rental).
-*   **Security Audit**: Automated scanning of JWT implementation and SQL injection prevention.
+...
+
+---
 
 ### Current Active Task
-- [x] **task-02-db-setup**: Setup PostgreSQL in Docker and define SQLAlchemy models for Company and User.
-- [/] **task-01-db-models**: Define core SQLAlchemy models (Companies, Vehicles, etc.). Status: __in_progress__
+- [x] **task-01-init-structure**: Initialize project structure for AI_progect.
+- [ ] **task-02-db-setup**: Setup PostgreSQL in Docker and define initial SQLAlchemy models (Company, User).
