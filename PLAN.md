@@ -76,3 +76,6 @@ Every table related to business data (`Vehicle`, `Rental`, `Customer`, `Status`)
 *   **Integration Testing**: Testing the interaction between FastAPI and PostgreSQL using Testcontainers.
 *   **E2E Testing**: Playwright/Cypress to verify critical user flows (Login $\rightarrow$ Create Vehicle $\rightarrow$ Start Rental).
 *   **Security Audit**: Automated scanning of JWT implementation and SQL injection prevention.
+
+### Current Active Task
+- [ ] **task-02-db-setup**: Setup PostgreSQL in Docker and define SQLAlchemy models for Company and User.
