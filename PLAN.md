@@ -78,4 +78,5 @@ Every table related to business data (`Vehicle`, `Rental`, `Customer`, `Status`)
 *   **Security Audit**: Automated scanning of JWT implementation and SQL injection prevention.
 
 ### Current Active Task
-- [ ] **task-02-db-setup**: Setup PostgreSQL in Docker and define SQLAlchemy models for Company and User.
+- [x] **task-02-db-setup**: Setup PostgreSQL in Docker and define SQLAlchemy models for Company and User.
+- [/] **task-01-db-models**: Define core SQLAlchemy models (Companies, Vehicles, etc.). Status: __in_progress__
