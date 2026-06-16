@@ -3,3 +3,13 @@ Worker started: Checking for tasks...
 Worker picking up task: task-1-db-models
 Task completed successfully!
 STATUS:COMPLETED
+Models created successfully.
+Worker started: Checking for tasks...
+Worker picking up task: task-1-db-models
+Task completed successfully!
+STATUS:COMPLETED
+Models created successfully.
+Worker started: Checking for tasks...
+Worker picking up task: task-1-db-models
+Task completed successfully!
+STATUS:COMPLETED
