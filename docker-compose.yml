@@ -6,9 +6,9 @@ services:
     container_name: fleet_db
     restart: always
     environment:
-      POSTG_USER: user
-      POSTG_PASSWORD: password
-      POSTG_DB: fleet_db
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: fleet_db
     ports:
       - "5432:5432"
     volumes:
