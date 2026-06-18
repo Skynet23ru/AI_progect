@@ -1068,3 +1068,9 @@ Worker started: Checking for tasks...
 Worker picking up task: task-1-db-models
 Task completed successfully!
 STATUS:COMPLETED
+/usr/bin/python3: can't open file '/home/skynet/AI_progint/worker_loop.py': [Errno 2] No such file or directory
+Models created successfully.
+Worker started: Checking for tasks...
+Worker picking up task: task-1-db-models
+Task completed successfully!
+STATUS:COMPLETED
