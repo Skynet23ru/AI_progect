@@ -1,6 +1,6 @@
 # Project Tasks
 
-- [ ] **task-02-db-setup**: Setup PostgreSQL in Docker and define initial SQLAlchemy models (Company, User). **Note: Supervisor detected no progress for 20 mins. Re-triggering work.**
+- [ ] **task-02-db-setup**: Setup PostgreSQL in Docker and define initial SQLAlchemy models (Company, User).
 - [x] **task-01-init-structure**: Initialize project structure for AI_progect.
 - [ ] **task-03-db-entities**: Define core SQLAlchemy models (Companies, Vehicles, Statuses, Customers, Rentals).
 - [ ] **task-04-auth-module**: Implement JWT authentication flow.
