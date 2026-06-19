@@ -30192,3 +30192,23 @@ jq: error (at <stdin>:1): Cannot index array with string "services"
  Container fleet_frontend  Starting
  Container fleet_frontend  Started
 Пт 19 июн 2026 06:50:02 UTC: Restart command executed.
+jq: error (at <stdin>:1): Cannot index array with string "services"
+Пт 19 июн 2026 06:55:01 UTC: Service db is DOWN! Attempting restart...
+Пт 19 июн 2026 06:55:01 UTC: Service backend is DOWN! Attempting restart...
+Пт 19 июн 2026 06:55:01 UTC: Service frontend is DOWN! Attempting restart...
+ Container fleet_db  Running
+ Container fleet_backend  Running
+ Container fleet_frontend  Created
+ Container fleet_frontend  Starting
+ Container fleet_frontend  Started
+Пт 19 июн 2026 06:55:02 UTC: Restart command executed.
+jq: error (at <stdin>:1): Cannot index array with string "services"
+Пт 19 июн 2026 07:00:02 UTC: Service db is DOWN! Attempting restart...
+Пт 19 июн 2026 07:00:02 UTC: Service backend is DOWN! Attempting restart...
+Пт 19 июн 2026 07:00:02 UTC: Service frontend is DOWN! Attempting restart...
+ Container fleet_db  Running
+ Container fleet_backend  Running
+ Container fleet_frontend  Created
+ Container fleet_frontend  Starting
+ Container fleet_frontend  Started
+Пт 19 июн 2026 07:00:03 UTC: Restart command executed.
