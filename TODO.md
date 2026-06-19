@@ -2,7 +2,7 @@
 
 - [ ] **task-03-db-entities**: Define core SQLAlchemy models (Companies, Vehicles, Statuses, Customers, Rentals).
 - [x] **task-03-db-entities**: Define core SQLAlchemy models (Companies, Vehicles, Status, Customers, Rentals).
-- [ ] **task-04-auth-module**: Implement JWT authentication flow.
+- [ ] **task-04-auth-module**: Implement JWT authentication flow. (STUCK: No changes in last 20 mins)
 - [ ] **task-05-multi-tenancy**: Implement Multi-tenancy middleware (`company_id` injection).
 - [ ] **task-06-migrations-setup**: Set up Alembic migrations and initial schema generation.
 - [ ] **task-07-state-machine**: Implement Vehicle State Machine using `transitions` library.
