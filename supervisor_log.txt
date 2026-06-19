@@ -1,1 +1,1 @@
-$(date '+%Y-%m-%d %H:%M:%S') - Checked TODO.md. Task 'task-02-db-setup' was detected as STUCK (no changes in last 20 mins). Added note to task and re-triggered via modification. Committed and pushed changes to GitHub.
+$(date '+%Y-%m-%d %H:%M:%S') - Checked TODO.md. Detected stuck task: task-02-db-setup (no recent changes in logs). Re-triggered work by clearing the warning note. Committed and pushed changes to GitHub.
