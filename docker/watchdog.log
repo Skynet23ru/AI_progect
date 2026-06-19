@@ -30132,3 +30132,43 @@ jq: error (at <stdin>:1): Cannot index array with string "services"
  Container fleet_frontend  Starting
  Container fleet_frontend  Started
 Пт 19 июн 2026 06:20:03 UTC: Restart command executed.
+jq: error (at <stdin>:1): Cannot index array with string "services"
+Пт 19 июн 2026 06:25:01 UTC: Service db is DOWN! Attempting restart...
+Пт 19 июн 2026 06:25:01 UTC: Service backend is DOWN! Attempting restart...
+Пт 19 июн 2026 06:25:01 UTC: Service frontend is DOWN! Attempting restart...
+ Container fleet_db  Running
+ Container fleet_backend  Running
+ Container fleet_frontend  Created
+ Container fleet_frontend  Starting
+ Container fleet_frontend  Started
+Пт 19 июн 2026 06:25:02 UTC: Restart command executed.
+jq: error (at <stdin>:1): Cannot index array with string "services"
+Пт 19 июн 2026 06:30:01 UTC: Service db is DOWN! Attempting restart...
+Пт 19 июн 2026 06:30:01 UTC: Service backend is DOWN! Attempting restart...
+Пт 19 июн 2026 06:30:01 UTC: Service frontend is DOWN! Attempting restart...
+ Container fleet_db  Running
+ Container fleet_backend  Running
+ Container fleet_frontend  Created
+ Container fleet_frontend  Starting
+ Container fleet_frontend  Started
+Пт 19 июн 2026 06:30:02 UTC: Restart command executed.
+jq: error (at <stdin>:1): Cannot index array with string "services"
+Пт 19 июн 2026 06:35:01 UTC: Service db is DOWN! Attempting restart...
+Пт 19 июн 2026 06:35:01 UTC: Service backend is DOWN! Attempting restart...
+Пт 19 июн 2026 06:35:01 UTC: Service frontend is DOWN! Attempting restart...
+ Container fleet_db  Running
+ Container fleet_backend  Running
+ Container fleet_frontend  Created
+ Container fleet_frontend  Starting
+ Container fleet_frontend  Started
+Пт 19 июн 2026 06:35:02 UTC: Restart command executed.
+jq: error (at <stdin>:1): Cannot index array with string "services"
+Пт 19 июн 2026 06:40:01 UTC: Service db is DOWN! Attempting restart...
+Пт 19 июн 2026 06:40:01 UTC: Service backend is DOWN! Attempting restart...
+Пт 19 июн 2026 06:40:01 UTC: Service frontend is DOWN! Attempting restart...
+ Container fleet_db  Running
+ Container fleet_backend  Running
+ Container fleet_frontend  Created
+ Container fleet_frontend  Starting
+ Container fleet_frontend  Started
+Пт 19 июн 2026 06:40:02 UTC: Restart command executed.
